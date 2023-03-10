@@ -63,16 +63,16 @@ export function Comparison() {
                 <div className="search_filter">
                     <form>
                         <div className="filter">
-                            <label className="container"
+                            <label className="container2"
                             ><input type="radio" checked="checked" name="radio" onChange={choose_school} />All Campus
                             </label>
-                            <label className="container"
+                            <label className="container2"
                             ><input type="radio" name="radio" onChange={choose_school} />Seattle
                             </label>
-                            <label className="container"
+                            <label className="container2"
                             ><input type="radio" name="radio" onChange={choose_school} />Bothell
                             </label>
-                            <label className="container clear"
+                            <label className="container2 clear"
                             ><input type="radio" name="radio" onChange={choose_school} />Tacoma
                             </label>
                         </div>

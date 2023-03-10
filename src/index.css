@@ -441,7 +441,7 @@ input[type="file"] {
   justify-content: space-between;
 }
 
-.container {
+.container2 {
   display: block;
   position: relative;
   margin-bottom: 20px;
@@ -449,7 +449,7 @@ input[type="file"] {
   margin-right: 120px;
 }
 
-.container input {
+.container2 input {
   height: 30px;
   width: 30px;
   position: relative;
@@ -837,7 +837,7 @@ input[type="file"] {
   grid-row: 1;
   width: 100%;
   max-width: 800x;
-  height: 700px;
+  height: fit-content;
   background-color: #ffffff;
   border: 0.1px solid #ababab;
   position: relative;
@@ -919,7 +919,7 @@ input[type="file"] {
 }
 
 .record {
-  margin: 90px 50px 50px 50px;
+  margin: 120px 50px 80px 50px;
   min-height: 560px;
   height: fit-content;
   padding: 50px;
@@ -954,7 +954,8 @@ input[type="file"] {
   font-weight: bold;
   font-family: sans-serif;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
 .pie:before,
@@ -998,6 +999,105 @@ input[type="file"] {
   z-index: 0;
 }
 
+.charttips {
+  position: absolute;
+  right: 150px;
+  top: 245px;
+}
+
+.charttips2 {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+}
+
+.charttips2 div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rectan {
+  height: 10px;
+  width: 20px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.charttips div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spestitile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spestitile span {
+  position: absolute;
+  right: 150px;
+  font-size: 40px;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+  top: 155px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+
+.bar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 50px 0 0px 50px;
+  padding-right: 15px;
+  font-weight: bolder;
+}
+
+.info {
+  width: 50%;
+  background-color: #4b2e83;
+}
+
+.cs {
+  width: 30%;
+  background-color: #4b2e83;
+}
+
+.expand {
+  /* text-align: center; */
+  margin: auto;
+  width: fit-content;
+  /* margin-top: 50px; */
+}
+
+.expand span {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+
+.show {
+  height: fit-content;
+  width: fit-content;
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+}
+
+.notShow {
+  height: 0;
+  /* width: 0; */
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
 /* --------- */
 /* Converter */
 /* --------- */
@@ -1019,6 +1119,37 @@ input[type="file"] {
 #converter main {
   position: relative;
   top: 165px;
+}
+
+.forconverter {
+  height: fit-content;
+  padding: 50px;
+  background-color: #FAF8FF;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.forconverter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.forconverter form select {
+  height: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255);
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 0.5px solid rgb(158, 158, 158);
+}
+
+#converter tr {
+  height: 80px;
 }
 
 /* ----- */
